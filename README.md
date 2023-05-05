@@ -12,7 +12,7 @@ To run the app, you need to have Java and JavaFX installed on your machine. Here
 Clone the repository to your local machine.
 Open the project in your preferred IDE.
 Make sure that the JavaFX libraries are included in the build path.
-Run the Main class to launch the app.
+Run the Start class to launch the app.
 
 
 
