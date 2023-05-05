@@ -39,7 +39,7 @@ You can sort the tasks by clicking on the "Sort by Name" or "Sort by Date" butto
 
 # Future Improvements
 Here are some improvements I want to make to the app:
-Allow users to filter by name and date.
+Allow users to filter by name and date.<br>
 Allow users to filter by the completion status of the task.
 Allow users to set due dates for tasks.
 Implement a search function to search for tasks by keyword.
