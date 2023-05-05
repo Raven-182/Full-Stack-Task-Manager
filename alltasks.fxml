@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="757.0" style="-fx-background-color: #880e4f#880e4f;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AllTasks">
+   <children>
+      <AnchorPane prefHeight="25.0" prefWidth="62.0">
+         <children>
+            <Button fx:id="backButton" layoutX="5.0" layoutY="12.0" mnemonicParsing="false" onAction="#backButtonClicked" prefHeight="38.0" prefWidth="45.0" style="-fx-shape: &quot;M19,11 L7.83,11 L12.71,6.12 C13.1,5.73 13.1,5.09 12.71,4.7 C12.32,4.31 11.69,4.31 11.3,4.7 L4.71,11.29 C4.32,11.68 4.32,12.31 4.71,12.7 L11.3,19.29 C11.69,19.68 12.32,19.68 12.71,19.29 C13.1,18.9 13.1,18.27 12.71,17.88 L7.83,13 L19,13 C19.55,13 20,12.55 20,12 C20,11.45 19.55,11 19,11 Z&quot;&quot;M19,11 L7.83,11 L12.71,6.12 C13.1,5.73 13.1,5.09 12.71,4.7 C12.32,4.31 11.69,4.31 11.3,4.7 L4.71,11.29 C4.32,11.68 4.32,12.31 4.71,12.7 L11.3,19.29 C11.69,19.68 12.32,19.68 12.71,19.29 C13.1,18.9 13.1,18.27 12.71,17.88 L7.83,13 L19,13 C19.55,13 20,12.55 20,12 C20,11.45 19.55,11 19,11 Z&quot;;" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="todolabel" alignment="CENTER" layoutX="255.0" layoutY="59.0" prefHeight="53.0" prefWidth="235.0" text="To-Do List" textFill="#fcfafa">
+         <font>
+            <Font name="Georgia" size="45.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutY="157.0" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="758.0" style="-fx-background-color: #fce4ec;">
+         <children>
+            <ListView fx:id="list" layoutX="41.0" layoutY="98.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="427.0" prefWidth="696.0" style="-fx-background-color: #fce4ec #fce4ec;">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </ListView>
+            <Label layoutX="26.0" layoutY="7.0" text="All Tasks">
+               <font>
+                  <Font name="Georgia Italic" size="30.0" />
+               </font>
+            </Label>
+            <ListView fx:id="list" layoutX="21.0" layoutY="98.0" prefHeight="380.0" prefWidth="717.0" style="-fx-background-color: #fce4ec #fce4ec;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
